@@ -4,7 +4,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig(() => ({
-  base: '/',
+  base:'/harshjeet-portfolio/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
